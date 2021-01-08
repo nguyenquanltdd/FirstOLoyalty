@@ -20,6 +20,14 @@ export default class DataService {
         this.availablePointExpireAfter = null;
         this.availableCurrencies = [
             {
+                name: 'THB',
+                code: 'thb'
+            },
+            {
+                name: 'VND',
+                code: 'vnđ'
+            },
+            {
                 name: 'PLN',
                 code: 'pln'
             },
